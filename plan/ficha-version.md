@@ -25,7 +25,7 @@
 | Requisitos de hardware y VirtualBox | Requiere 2 GB de RAM como mínimo, recomienda 4 GB y necesita 20 GB de almacenamiento como mínimo. Presenta posibles problemas de compatibilidad con VirtualBox debido al kernel 6.14. | [Requisitos](https://blog.linuxmint.com/?p=4981) - [Notas de versión](https://www.linuxmint.com/rel_zena.php) |
 | Particionado manual | Sí. El instalador permite seleccionar la opción Something else para crear las particiones manualmente. | [Guía de instalación](https://linuxmint-installation-guide.readthedocs.io/en/latest/install.html) |
 | Guía oficial de Docker Engine | Existe una guía oficial para Ubuntu, distribución en la que se basa Linux Mint. Docker no garantiza oficialmente su funcionamiento en Linux Mint. | [Docker para Ubuntu](https://docs.docker.com/engine/install/ubuntu/) |
-| Imagen base en Docker Hub | No se utilizará Linux Mint como imagen base, ya que el grupo tiene asignado Debian. | [Docker Hub](https://hub.docker.com/_/debian/) |
+| Imagen base en Docker Hub | No se identificó una imagen oficial de Linux Mint 22.3 en Docker Hub. Para el proyecto utilizaremos Debian como imagen base asignada al grupo. | [Docker Hub](https://hub.docker.com/search?q=linuxmint) |
 
 ### Configuración propuesta
 
@@ -48,7 +48,7 @@ La documentación de Linux Mint advierte sobre posibles problemas con VirtualBox
 | Requisitos de hardware y VirtualBox | Requiere un procesador compatible con x86-64-v3, 2 GB de RAM para instalación en modo texto y un mínimo de 10 GB de almacenamiento. Es compatible con VirtualBox si se cumplen los requisitos de hardware. | [Requisitos](https://docs.rockylinux.org/guides/minimum_hardware_requirements/) - [VirtualBox](https://docs.rockylinux.org/guides/virtualization/vbox-rocky/) |
 | Particionado manual | Sí. El instalador permite configurar las particiones manualmente desde Installation Destination. | [Instalación](https://docs.rockylinux.org/10/guides/installation/) |
 | Guía oficial de Docker Engine | Sí. Docker dispone de documentación oficial para Rocky Linux, incluyendo la versión 10. | [Docker para Rocky Linux](https://docs.docker.com/engine/install/rockylinux/) |
-| Imagen base en Docker Hub | No se utilizará Rocky Linux como imagen base, debido a que el grupo tiene asignado Debian. | [Docker Hub](https://hub.docker.com/_/debian/) |
+| Imagen base en Docker Hub | Sí. Existe la imagen oficial rockylinux:10.3, aunque para nuestro proyecto utilizaremos Debian. | [Rocky Linux en Docker Hub](https://hub.docker.com/_/rockylinux/tags) |
 
 ### Configuración propuesta
 
@@ -60,6 +60,16 @@ La documentación de Linux Mint advierte sobre posibles problemas con VirtualBox
 - Particiones: /, swap, /home y /var.
 
 La partición /var tendrá espacio suficiente para almacenar las imágenes y los archivos utilizados por Docker.
+
+
+| Partición | Tamaño propuesto |
+|---|---|
+| / | 8 GB |
+| /var | 14 GB |
+| swap | 1 GB |
+| /home | 2 GB |
+| Total | 25 GB |
+
 
 ## 3. Debian - Imagen base del Dockerfile
 
