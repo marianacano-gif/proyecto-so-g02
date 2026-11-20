@@ -35,10 +35,6 @@
 - Procesadores: 2.
 - Particiones: /, swap y /home.
 
-### Observación de compatibilidad
-
-La documentación de Linux Mint advierte sobre posibles problemas con VirtualBox. Si se presenta este inconveniente, se seguirá la alternativa recomendada por sus desarrolladores: instalar Linux Mint 22.1 y actualizar a 22.3 conservando el kernel 6.8.
-
 ## 2. Rocky Linux - Máquina virtual de consola
 
 | Pregunta | Respuesta | Fuente oficial |
@@ -59,18 +55,6 @@ La documentación de Linux Mint advierte sobre posibles problemas con VirtualBox
 - Instalación mínima, sin escritorio.
 - Particiones: /, swap, /home y /var.
 
-La partición /var tendrá espacio suficiente para almacenar las imágenes y los archivos utilizados por Docker.
-
-
-| Partición | Tamaño propuesto |
-|---|---|
-| / | 8 GB |
-| /var | 14 GB |
-| swap | 1 GB |
-| /home | 2 GB |
-| Total | 25 GB |
-
-
 ## 3. Debian - Imagen base del Dockerfile
 
 | Pregunta | Respuesta | Fuente oficial |
@@ -81,17 +65,3 @@ La partición /var tendrá espacio suficiente para almacenar las imágenes y los
 | Particionado manual | Debian permite el particionado manual durante su instalación. En este proyecto no será necesario porque se utilizará como imagen de contenedor. | [Guía de instalación](https://www.debian.org/releases/trixie/amd64/) |
 | Guía oficial de Docker Engine | Sí. Docker cuenta con una guía oficial de instalación para Debian. | [Docker para Debian](https://docs.docker.com/engine/install/debian/) |
 | Imagen base en Docker Hub | Sí. Debian dispone de una imagen oficial con la etiqueta debian:13, que corresponde a Trixie. | [Imagen oficial de Debian](https://hub.docker.com/_/debian/) |
-
-### Configuración propuesta
-
-Para la construcción de nuestra imagen utilizaremos como base:
-
-    FROM debian:13
-
-Posteriormente instalaremos git, curl, un editor de texto y un compilador. También crearemos un usuario sin permisos de administrador, siguiendo los requisitos del proyecto.
-
-## Conclusión
-
-Las distribuciones seleccionadas cuentan con soporte vigente y documentación para desarrollar las actividades del proyecto. Utilizaremos Linux Mint para el entorno gráfico, Rocky Linux para la administración de servicios, Docker y Kubernetes, y Debian para construir nuestra imagen de contenedor.
-
-La compatibilidad y el funcionamiento de las máquinas virtuales se comprobarán durante los siguientes sprints.
