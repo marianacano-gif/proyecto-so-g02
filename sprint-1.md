@@ -46,6 +46,8 @@ Primero descargamos virtual box y creamos una maquina virtual. También descarga
 
 - Editor 1: Mousepad
 - <img width="975" height="636" alt="image" src="https://github.com/user-attachments/assets/e782b466-af3c-4920-b5fa-9321b703551c" />
+<img width="975" height="646" alt="image" src="https://github.com/user-attachments/assets/9399549b-77cb-4835-9056-db5ec93843cb" />
+
 
 ### Comandos utilizados
 sudo apt install firefox -y
