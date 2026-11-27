@@ -20,8 +20,10 @@ Instalar las dos máquinas virtuales, configurar la comunicación entre ellas, c
 - Nombre de la máquina: g02-grafica.
 
 ### Procedimiento
+Primero descargamos virtual box y creamos una maquina virtual. También descargamos la imagen ISO de linuxMint 22.3 CINNAMON y la montamos en la maquina virtual. A la maquina virtual le asignamos memoria RAM, núcleos del procesador y espacio de disco. Ya creada con un usuario y contraseña la iniciamos: 
+<img width="975" height="911" alt="image" src="https://github.com/user-attachments/assets/7d59f7a1-7574-4ae5-8637-6de899125771" />
+<img width="975" height="958" alt="image" src="https://github.com/user-attachments/assets/c464c2ec-cfd1-4529-9284-a407d0fa162c" />
 
-Pendiente.
 
 ### Particionado manual
 
