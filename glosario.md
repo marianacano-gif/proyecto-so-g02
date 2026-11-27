@@ -12,15 +12,15 @@ En esta sección se registrarán los conceptos utilizados durante el desarrollo 
 
 ## Virtualización
 
-- Máquina virtual:Es como tener otro computador funcionando dentro de nuestro computador físico.
-- Hipervisor:Software que permite crear y administrar máquinas virtuales.
+- Máquina virtual: Es como tener otro computador funcionando dentro de nuestro computador físico.
+- Hipervisor: Software que permite crear y administrar máquinas virtuales.
 - VirtualBox: Programa que utilizaremos para crear y ejecutar nuestras máquinas virtuales.
-- Instantánea (Snapshot):Guarda el estado de una náquina virtual en un momento determinado para poder recuperarlo posteriormente.
+- Instantánea (Snapshot): Guarda el estado de una náquina virtual en un momento determinado para poder recuperarlo posteriormente.
 
 ## Sistemas operativos
 
 - Linux: Núcleo sobre el cual se construyen diferentes sistemas operativos.
-- Distribución Linux: Sistema operativo basado en Linux. como Mint, Rocky Linux o Debian.
+- Distribución Linux: Sistema operativo basado en Linux, como Mint, Rocky Linux o Debian.
 - LTS: Soporte a largo plazo, que permite recibir mantenimiento y actualizaciones durante varios años.
 - Terminal: Interfaz que permite interactuar con el sistema mediante comandos.
 
@@ -29,7 +29,7 @@ En esta sección se registrarán los conceptos utilizados durante el desarrollo 
 - Partición raíz (/): Espacio donde se instala el sistema operativo y sus archivos principales.
 - Swap: Espacio del disco que sirve como apoyo a la memoria RAM.
 - /home: Directorio donde se guardan los archivos y configuraciones personales de los usuarios.
-- /var: Directorio donde se almacena datos que cambian constantemente, como registros del sistema.
+- /var: Directorio donde se almacenan datos que cambian constantemente, como registros del sistema.
 - Sistema de archivos: Forma en que se organizan y almacenan los archivos en un dispositivo.
 
 ## Redes
