@@ -43,7 +43,19 @@ Realizar un proyecto de instalación y administración de sistemas operativos Li
 
 ## Cuadro comparativo del instalador
 
-Pendiente de completar.
+| Característica | Linux Mint | Rocky Linux |
+|---|---|---|
+| Versión | 22.3 Cinnamon | 10.3 |
+| Tipo de instalador | Pendiente | Pendiente |
+| Interfaz de instalación | Pendiente | Pendiente |
+| Particionado manual | Pendiente | Pendiente |
+| Sistema de archivos | Pendiente | Pendiente |
+| Configuración de usuarios | Pendiente | Pendiente |
+| Tiempo de instalación | Pendiente | Pendiente |
+| Facilidad de instalación | Pendiente | Pendiente |
+| Dificultades encontradas | Pendiente | Pendiente |
+
+La comparación se completará después de realizar la instalación de ambas máquinas virtuales.
 
 ## Conclusiones
 
