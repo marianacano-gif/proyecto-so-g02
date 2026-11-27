@@ -181,9 +181,9 @@ Duración máxima: 3 minutos.
 
 | Integrante | Actividades realizadas | Commits |
 |---|---|---|
-| Mariana Buitrago Cano | Creación y configuración del sitio web | Pendiente de registrar |
-| Jean Carlos Quintero Urriago | Pendiente | Pendiente |
-| Thevinson Velásquez | Pendiente | Pendiente |
+| Mariana Buitrago Cano | Configuración de GitHub Pages, creación de la página principal, páginas de los sprints y glosario. | 9 commits |
+| Jean Carlos Quintero Urriago | Pendiente | 0 commits |
+| Thevinson Velásquez | Pendiente | 0 commits |
 
 ## Errores y soluciones
 
