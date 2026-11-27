@@ -29,27 +29,38 @@ Primero descargamos virtual box y creamos una maquina virtual. También descarga
 
 | Partición | Tamaño | Justificación |
 |---|---|---|
-| / | Pendiente | Pendiente |
-| swap | Pendiente | Pendiente |
-| /home | Pendiente | Pendiente |
+| / | 20000 | Asigno 20gb porque pensamos esta maquina virtual para guardar archivos, o guardar proyectos y no para una exalabilidad. |
+| swap | 2047 | Como no es una maquina virtual donde se hagan tareas tan pesadas, este respaldo es suficiente para su uso pensado |
+| /home | 4794 | el resto del espacio, no hay más opción  |
+<img width="1275" height="898" alt="image" src="https://github.com/user-attachments/assets/3e413742-c03f-4f03-b2f1-0e66f62b7226" />
+
+
 
 ### Programas instalados
 
-- Navegador 1: Pendiente.
-- Navegador 2: Pendiente.
-- Editor 1: Pendiente.
-- Editor 2: Pendiente.
+- Navegador 1: FireFox
+- <img width="975" height="537" alt="image" src="https://github.com/user-attachments/assets/34b881d3-145e-4f17-8720-32368f510da8" />
+
+- Navegador 2: Opera
+- <img width="975" height="622" alt="image" src="https://github.com/user-attachments/assets/854dc38b-2aab-4708-97b5-8653c4cd8c14" />
+
+- Editor 1: Mousepad
+- <img width="975" height="636" alt="image" src="https://github.com/user-attachments/assets/e782b466-af3c-4920-b5fa-9321b703551c" />
 
 ### Comandos utilizados
-
-Pendiente.
+sudo apt install firefox -y
+sudo apt install mousepad -y
 
 ### Evidencias
 
 - Editor de particiones.
+- <img width="975" height="977" alt="image" src="https://github.com/user-attachments/assets/d14de5b8-4e71-48bf-921d-cd11acd4d3a5" />
+
 - Comando `lsblk`.
 - Comando `df -h`.
 - Comando `cat /etc/fstab`.
+- <img width="1275" height="898" alt="image" src="https://github.com/user-attachments/assets/9f5bff4f-2fad-49bd-a6e8-68dad32172fe" />
+
 - Navegadores y editores.
 
 ### Explicación de los resultados
