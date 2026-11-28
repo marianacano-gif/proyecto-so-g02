@@ -77,16 +77,15 @@ Pendiente.
 
 ### Procedimiento
 
-Pendiente.
+Descargamos la imagen ISO y la montamos en una nueva maquina virtual.
 
 ### Particionado manual
 
 | Partición | Tamaño | Justificación |
 |---|---|---|
-| / | Pendiente | Pendiente |
-| swap | Pendiente | Pendiente |
-| /home | Pendiente | Pendiente |
-| /var | Pendiente | Pendiente |
+| / | 16Gb | es donde se encuentran los componentes principales del sistema operativo y los programas necesarios para el funcionamiento del servidor |
+| swap | 2Gb | proporcionar memoria de intercambio adicional a los 8 GB de RAM asignados a la máquina virtual. |
+| /home | 7Gb | para mantener separados los archivos personales de los usuarios respecto a los archivos del sistema. |
 
 ### Herramientas requeridas
 
@@ -97,21 +96,25 @@ Pendiente.
 - wget
 
 ### Comandos utilizados
-
-Pendiente.
+sudo dnf update -y
+sudo dnf install -y make rsync curl git wget
 
 ### Evidencias
 
 - Comando `lsblk`.
 - Comando `df -h`.
+- <img width="1280" height="512" alt="Captura de pantalla 2026-11-27 203754" src="https://github.com/user-attachments/assets/b10dc830-2175-41d4-a24f-fd9036500310" />
+
 - Comando `cat /etc/fstab`.
+- <img width="812" height="345" alt="Captura de pantalla 2026-11-27 203832" src="https://github.com/user-attachments/assets/bdcd4a07-282c-4bec-8bef-40eca1127013" />
+
 - Verificación de las herramientas instaladas.
+- <img width="1133" height="857" alt="image" src="https://github.com/user-attachments/assets/90cc0112-ecea-4211-ab62-458536052d95" />
+
 
 ### Explicación de los resultados
 
-Pendiente.
-
----
+después de instalar RockyLinux y de distribuir el disco instalamos sus herramientas. Previo a ello usamos sudo dnf update -y para actualizar las dependencias del OS, así después de usar el comando sudo dnf install todo funcionara en la versión más reciente
 
 ## 3. Configuración de red
 
