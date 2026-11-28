@@ -148,16 +148,25 @@ Pendiente.
 ## 4. Conexión SSH
 
 ### Procedimiento
-
-Pendiente.
+Desde la consola ejecutamos los comandos que estan en el siguiente punto. Primero instalamos ssh server, vemos si esta actualizado, lo activamos y vemos si esta conectado. Despues activamos y permitimos las conexiones por firewall
 
 ### Comandos utilizados
 
-Pendiente.
+sudo dnf install openssh-server -y
+sudo systemctl enable --now sshd
+sudo systemctl status sshd
+sudo firewall-cmd --permanent --add-service=ssh
+sudo firewall-cmd --reload
+ip addr
+hostname -I
 
 ### Evidencias
 
 Sesión SSH desde la máquina gráfica hacia la máquina de consola.
+<img width="1270" height="801" alt="image" src="https://github.com/user-attachments/assets/d971f655-7bfa-4fdb-9d7f-61ea6ff8c647" />
+
+<img width="1347" height="901" alt="image" src="https://github.com/user-attachments/assets/0ee1302e-f844-4020-9ac7-4d2c3f05ec9b" />
+
 
 ### Explicación de los resultados
 
