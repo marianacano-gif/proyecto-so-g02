@@ -24,7 +24,6 @@ Primero descargamos virtual box y creamos una maquina virtual. También descarga
 <img width="975" height="911" alt="image" src="https://github.com/user-attachments/assets/7d59f7a1-7574-4ae5-8637-6de899125771" />
 <img width="975" height="958" alt="image" src="https://github.com/user-attachments/assets/c464c2ec-cfd1-4529-9284-a407d0fa162c" />
 
-
 ### Particionado manual
 
 | Partición | Tamaño | Justificación |
